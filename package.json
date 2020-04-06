@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "ws": "3.3.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "pdf-lib": "^1.4.1",
+    "popper.js": "^1.16.1",
+    "qrcode": "^1.4.4"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "scripts": {
+    "dev": "npx parcel serve src/index.html",
+    "prebuild": "rimraf dist & rimraf .cache",
+    "build": "npx parcel build src/index.html --public-url='/deplacement-covid-19/'"
+  }
+}
