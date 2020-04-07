@@ -6,7 +6,7 @@ Code du Générateur d'attestation de déplacement dérogatoire
 * dev: `npm run dev`
 * build: `npm run build`
 
-# Env
+## Env
 * the version is set througth the environment variable "VERSION":
   * linux: `VERSION=c35428a`
   * windows: `set VERSION=c35428a`
